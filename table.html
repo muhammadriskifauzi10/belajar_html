@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Belajar HTML Dasar 6 | Table</title>
+
+    <style>
+      /* Table 1 */
+      .table1 {
+        border-collapse: collapse;
+        text-align: center;
+      } 
+      .table1 td:last-child {
+        text-align: right;
+      } 
+      /* Table 2 */
+      .table2 {
+        border-collapse: collapse;
+        text-align: center;
+      } 
+      .table2 th {
+        padding: 10px;
+      }
+      .table2 td:last-child {
+        text-align: right;
+      } 
+      .center {
+        text-align: center !important;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <h1>Belajar Table</h1>
+
+    <h3>Ini Table 1</h3>
+    <table class="table1" border="1">
+      <!-- Komponen 1 -->
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+
+      <!-- Komponen 2 -->
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Sabun Lifeboy</td>
+          <td>Rp. 4.500</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Downy</td>
+          <td>Rp. 500</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Head & Soldier</td>
+          <td>Rp. 500</td>
+        </tr>
+        <tr>
+          <td class="center" colspan="3">Jumlah Total: Rp. 5.500</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+
+    <h3>Ini Table 2</h3>
+    <table class="table2" border="1">
+      <!-- Komponen 1 -->
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+
+      <!-- Komponen 2 -->
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Sabun Lifeboy</td>
+          <td>Rp. 4.500</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Downy</td>
+          <td>Rp. 500</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Head & Soldier</td>
+          <td>Rp. 500</td>
+        </tr>
+        <tr>
+          <td class="center" colspan="3">Jumlah Total: Rp. 5.500</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
